@@ -346,7 +346,7 @@ class FileSystemTool(QWidget):
         self.output_text.append("🗑️ Log cleared!\n")
 
     def update_system_info(self):
-        # Update CPU Usage
+        # Update Cpu Usage
         cpu_usage = psutil.cpu_percent()
         self.cpu_usage_label.setText(f"💻 CPU Usage: {cpu_usage}%")
         self.cpu_data.append(cpu_usage)
